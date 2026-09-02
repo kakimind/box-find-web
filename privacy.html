@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>개인정보 처리방침 — 어디뒀지?</title>
+<meta name="description" content="어디뒀지? 앱의 개인정보 처리방침">
+<link rel="icon" href="assets/icon.png">
+<style>
+  :root{
+    --cream:#FBF4EC;
+    --terracotta:#C1694F;
+    --terracotta-dark:#A8543C;
+    --ink:#3A2E27;
+    --ink-soft:#6b5b50;
+    --card:#ffffff;
+    --border:#EAD9C9;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    font-family:"Apple SD Gothic Neo","Malgun Gothic","Pretendard",-apple-system,BlinkMacSystemFont,sans-serif;
+    background:var(--cream);
+    color:var(--ink);
+    line-height:1.7;
+  }
+  a{color:var(--terracotta-dark);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  img{max-width:100%;display:block;}
+  .wrap{max-width:760px;margin:0 auto;padding:0 24px;}
+
+  header{
+    border-bottom:1px solid var(--border);
+  }
+  header .wrap{
+    display:flex;align-items:center;justify-content:space-between;
+    height:64px;
+  }
+  .brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:18px;}
+  .brand img{width:32px;height:32px;border-radius:8px;}
+  .back{font-size:14px;font-weight:600;color:var(--ink-soft);}
+
+  main{padding:56px 0 96px;}
+  h1{font-size:30px;font-weight:900;margin-bottom:8px;}
+  .updated{color:var(--ink-soft);font-size:14px;margin-bottom:40px;}
+
+  section{margin-bottom:36px;}
+  h2{font-size:19px;font-weight:800;margin-bottom:12px;color:var(--terracotta-dark);}
+  p{margin-bottom:12px;color:var(--ink);}
+  ul{margin:0 0 12px 20px;}
+  li{margin-bottom:6px;}
+
+  .card{
+    background:var(--card);border:1px solid var(--border);
+    border-radius:16px;padding:20px 24px;margin-bottom:36px;
+  }
+  .card p{margin-bottom:0;font-size:15px;}
+
+  table{
+    width:100%;border-collapse:collapse;margin-bottom:12px;
+    font-size:14px;
+  }
+  th,td{
+    text-align:left;padding:10px 12px;border-bottom:1px solid var(--border);
+    vertical-align:top;
+  }
+  th{color:var(--ink-soft);font-weight:700;width:30%;}
+
+  footer{
+    padding:32px 0;border-top:1px solid var(--border);
+    text-align:center;font-size:13px;color:var(--ink-soft);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="brand"><img src="assets/icon.png" alt="어디뒀지? 아이콘"> 어디뒀지?</div>
+    <a class="back" href="index.html">← 홈으로</a>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <h1>개인정보 처리방침</h1>
+    <p class="updated">최종 수정일: 2026년 9월 2일</p>
+
+    <div class="card">
+      <p>
+        <strong>어디뒀지?</strong>는 사용자가 입력한 정보를 서버로 전송하지 않고,
+        모든 데이터를 기기 안에만 저장하는 앱입니다. 별도의 회원가입이나 로그인이
+        없으며, 개발자를 포함한 그 누구도 사용자의 박스·물건 정보에 접근할 수 없습니다.
+      </p>
+    </div>
+
+    <section>
+      <h2>1. 수집하는 정보</h2>
+      <p>어디뒀지?는 아래 정보를 <strong>기기 내부 저장소</strong>에만 저장하며, 외부 서버로 전송하지 않습니다.</p>
+      <ul>
+        <li>사용자가 등록한 박스 이름, 보관 장소, 박스 번호</li>
+        <li>사용자가 등록한 물건 이름</li>
+        <li>사용자가 촬영하거나 선택한 박스/물건 사진</li>
+      </ul>
+      <p>이 앱은 이름, 이메일, 전화번호, 위치정보 등 사용자를 식별할 수 있는 개인정보를 별도로 수집하지 않습니다.</p>
+    </section>
+
+    <section>
+      <h2>2. 사진 및 카메라 접근</h2>
+      <p>
+        박스나 물건 사진을 등록할 때 기기의 카메라 또는 사진 보관함에 접근합니다.
+        이 사진은 앱을 삭제하거나 박스를 삭제하기 전까지 기기 안에만 저장되며,
+        어떠한 외부 서버로도 업로드되지 않습니다.
+      </p>
+    </section>
+
+    <section>
+      <h2>3. 온디바이스 사진 인식 (사진 추천 태그)</h2>
+      <p>
+        사진을 등록하면 Google ML Kit의 온디바이스(On-Device) 이미지 인식 기능을 이용해
+        물건 이름을 추천해드려요. 이 처리는 전적으로 <strong>기기 안에서만</strong> 이루어지며,
+        사진이나 인식 결과가 인터넷으로 전송되거나 외부 서버에 저장되지 않습니다.
+      </p>
+    </section>
+
+    <section>
+      <h2>4. 정보 공유</h2>
+      <p>
+        박스 번호 공유하기 기능을 사용하면 OS의 기본 공유 시트(문자, 카카오톡 등)를 통해
+        사용자가 직접 선택한 앱으로 정보가 전달됩니다. 이 과정은 사용자의 직접적인 조작으로만
+        일어나며, 어디뒀지? 앱이나 개발자가 임의로 정보를 공유하지 않습니다.
+      </p>
+    </section>
+
+    <section>
+      <h2>5. 제3자 제공</h2>
+      <p>어디뒀지?는 사용자의 어떠한 정보도 제3자에게 판매, 대여, 제공하지 않습니다.</p>
+    </section>
+
+    <section>
+      <h2>6. 데이터 보관 및 삭제</h2>
+      <p>
+        모든 데이터는 기기 내부 저장소에만 보관됩니다. 앱을 삭제하면 해당 데이터도 기기에서
+        함께 삭제됩니다. 앱 안에서 박스나 물건을 삭제하면 즉시 기기에서 영구적으로 삭제되며
+        복구할 수 없습니다.
+      </p>
+    </section>
+
+    <section>
+      <h2>7. 아동의 개인정보</h2>
+      <p>
+        어디뒀지?는 만 14세 미만 아동을 대상으로 하지 않으며, 아동으로부터 개인정보를
+        의도적으로 수집하지 않습니다.
+      </p>
+    </section>
+
+    <section>
+      <h2>8. 권한 안내</h2>
+      <table>
+        <tr><th>권한</th><td>사용 목적</td></tr>
+        <tr><th>카메라</th><td>박스/물건 사진 촬영</td></tr>
+        <tr><th>사진/미디어</th><td>기존 사진 보관함에서 사진 선택</td></tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>9. 문의</h2>
+      <p>
+        개인정보 처리방침에 대해 궁금한 점이 있으시면 아래 이메일로 문의해주세요.<br>
+        이메일: <a href="mailto:kakimind@gmail.com">kakimind@gmail.com</a>
+      </p>
+    </section>
+
+    <section>
+      <h2>10. 변경 안내</h2>
+      <p>
+        이 개인정보 처리방침은 법령이나 서비스 변경에 따라 수정될 수 있으며,
+        변경 시 이 페이지를 통해 안내합니다.
+      </p>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">© 2026 어디뒀지?</div>
+</footer>
+
+</body>
+</html>
